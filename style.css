@@ -1,0 +1,60 @@
+body{
+    background-color: #222;
+    color: white;
+}
+.done{
+    text-decoration: line-through;
+}
+
+.active{
+    background: burlywood;
+    color: blue;
+}
+
+.container{
+    text-align: center;
+}
+.text{
+    text-align: center;
+    margin: 1rem;
+}
+.title{
+    background: linear-gradient(rgb(197, 175, 133),rgb(156, 228, 156),rgb(228, 228, 154));
+}
+.containerBox{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    color: white;
+    background-color: #8d8181;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #a89a9a;
+}
+
+input {
+    padding: 6px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.hidden p{
+    background-color: #333;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 6px auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
